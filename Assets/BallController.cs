@@ -6,9 +6,10 @@ public class BallController : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed;
+    public int score;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
 		
 	}
