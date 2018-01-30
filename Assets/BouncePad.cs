@@ -21,7 +21,7 @@ public class BouncePad : MonoBehaviour
         //add score
         if (ball != null)
         {
-            ball.AddForce(new Vector3(0, 2, 0), ForceMode.Impulse);
+            ball.AddForce(new Vector3(0, 4, 0), ForceMode.Impulse);
         }
     }
 }
